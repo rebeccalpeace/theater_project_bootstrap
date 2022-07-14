@@ -1,0 +1,19 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.navbar {
+    background-color: black;
+}
+
+.navbar a {
+    color: white;
+}
+
+.navbar a:hover {
+    color: white;
+}
+
+.navbar-toggler-icon {
+    background-color: white;
+}
