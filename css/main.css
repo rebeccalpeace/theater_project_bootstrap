@@ -2,11 +2,95 @@
     .resp-text {
         font-size: x-small;
     }
+    .show-text {
+        font-size: x-small;
+    }
+    .details {
+        font-size: 7px;
+    }
+    .button-text {
+        font-size: 6.5px;
+    }
+    .footer-titles {
+        font-size: 15px;
+    }
+    .footer-info {
+        font-size: 3.5px;
+    }
+}
+
+@media (min-width: 544px) {
+    .show-text {
+        font-size: medium;
+    }
+    .details {
+        font-size: 8px;
+    }
+    .button-text {
+        font-size: 8px;
+    }
+    .footer-titles {
+        font-size: 20px;
+    }
+    .footer-info {
+        font-size: 5px;
+    }
 }
 
 @media (min-width: 768px) {
     .resp-text {
+        font-size: small;
+    }
+    .show-text {
+        font-size: large;
+    }
+    .details {
+        font-size: small;
+    }
+    .button-text {
         font-size: medium;
+    }
+    .footer-titles {
+        font-size: 25px;
+    }
+    .footer-info {
+        font-size: 8px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .show-text {
+        font-size: xx-large;
+    }
+    .details {
+        font-size: medium;
+    }
+    .button-text {
+        font-size: large;
+    }
+    .footer-titles {
+        font-size: 30px;
+    }
+    .footer-info {
+        font-size: 13px;
+    }
+}
+
+@media (min-width: 1224px) {
+    .show-text {
+        font-size: xx-large;
+    }
+    .details {
+        font-size: large;
+    }
+    .button-text {
+        font-size: x-large;
+    }
+    .footer-titles {
+        font-size: 35px;
+    }
+    .footer-info {
+        font-size: 17px;
     }
 }
 
@@ -33,4 +117,14 @@ body {
 #big-pic {
     margin: 0;
     padding: 0;
+}
+
+.button-text {
+    color: white;
+    border-radius: 0;
+    border: solid lightgray 1px;
+}
+
+.white {
+    color: white;
 }
