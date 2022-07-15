@@ -1,3 +1,15 @@
+@media (min-width: 320px) {
+    .resp-text {
+        font-size: x-small;
+    }
+}
+
+@media (min-width: 768px) {
+    .resp-text {
+        font-size: medium;
+    }
+}
+
 body {
     font-family: 'Times New Roman', Times, serif;
 }
@@ -16,4 +28,9 @@ body {
 
 .navbar-toggler-icon {
     background-color: white;
+}
+
+#big-pic {
+    margin: 0;
+    padding: 0;
 }
